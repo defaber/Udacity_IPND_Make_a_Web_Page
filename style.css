@@ -1,0 +1,108 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+
+h1{
+  text-align: center;
+  color: #F9EDD8;
+  font-family: Verdana, sans-serif;
+}
+
+h2{
+  color: #F9EDD8;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #4E4C4E;
+}
+
+.header{
+  color: #F9EDD8;
+  background-color: #4E4C4E;
+  font-family: Verdana, sans-serif;
+}
+
+.family{
+  text-align: center;
+  background-color: #4E4C4E;
+  font-family: Verdana, sans-serif;
+}
+
+.description{
+  width: 85%;
+  text-align: justify;
+  background-color: #F37860;
+  color: #F9EDD8;
+  margin: 10px auto;
+  padding: 20px;
+  border-color: white;
+  border-width: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.list{
+  width: 80%;
+  background-color: #81B1B2;
+  color: #F9EDD8;
+  margin: 10px auto;
+  padding: 20px;
+  border-color: white;
+  border-width: 10px;
+  text-align: center;
+  list-style: none;
+  font-family: Verdana, sans-serif;
+}
+
+.image{
+  float: left;
+  /*margin: 10px auto;*/
+  padding: 20px;
+  width: 200px;
+  height: 600px;
+  /*background-color: black;*/
+}
+
+.caption{
+  text-align: center;
+  color: #F9EDD8;
+  background-color: #4E4C4E;
+}
+
+.oneAndFour{
+  float: left;
+  border-width: 3px;
+  border-color: #7C7770;
+  margin: 10px auto;
+  width: 50%;
+  height: 50%;
+  background-color: #81B1B2;
+}
+
+.twoAndThree{
+  float: left;
+  margin: 10px auto;
+  width: 50%;
+  height: 50%;
+  background-color: #F37860;
+}
+
+.summary{
+  background-color: #4E4C4E;
+  color: #F9EDD8;
+  text-align: justify;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  border-color: white;
+  border-width: 10px;
+  font-family: Verdana, sans-serif;
+}
